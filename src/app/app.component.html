@@ -1,0 +1,10 @@
+<button (click)="toggleHeading()">Toggle Heading</button>
+<h1 *ngIf="showHeading">This is heading</h1>
+
+<h3>List of Heroes</h3>
+<div *ngFor="let hero of heroes">{{hero}}</div>
+
+<h5>my name: {{myName}}</h5>
+<input type="text" [(ngModel)]="myName">
+
+<h5>{{someText}}</h5>
