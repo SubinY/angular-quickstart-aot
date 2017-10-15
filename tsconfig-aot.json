@@ -16,7 +16,7 @@
   },
 
   "files": [
-    // "src/app/app.module.ts", // main.ts中已经引用了app.module.ts
+    "src/app/app.module.ts",
     "src/main.ts"
   ],
 
