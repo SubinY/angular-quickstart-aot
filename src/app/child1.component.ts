@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-
+// 测试是否可以@Input()与private一起用
 @Component({
   selector: 'child1',
   template: '<button (click)="onClick()">btn</button>'
